@@ -7,6 +7,9 @@
 		var num = document.getElementById("n1");
 		num.value = Math.pow(num.value, 3);
 		}
+		function seno() {
+		var num = document.getElementById("n1");
+		num.value = Math.sin(num.value);
 		</script>
 	</head>
 	<body>
@@ -14,5 +17,6 @@
 		Number:
 		<input type="text" id="n1">
 		<button onclick="cube()"> x³ </button>
+		<button onclick="seno()"> sin(x) </button>
 	</body>
 </html>
